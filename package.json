@@ -1,0 +1,19 @@
+{
+  "name": "sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "Track your employees",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linka-Source/SQL-Employee-Tracker.git"
+  },
+  "author": "PK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linka-Source/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Linka-Source/SQL-Employee-Tracker#readme"
+}
