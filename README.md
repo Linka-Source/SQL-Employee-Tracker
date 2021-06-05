@@ -71,6 +71,6 @@ https://drive.google.com/file/d/198ipojS4-rguRgbsILmttdOreSzxxCfF/view
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at f. You can find more of my work at [f](https://github.com/f/).
+If you have any questions about the repo, open an issue or contact me directly at paulinka.koczwara@gmail.com. You can find more of my work at https://github.com/Linka-Source.
 
 
