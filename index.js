@@ -191,7 +191,7 @@ const updateEmployee = () => {
         {
             name: 'employeeID',
             type: 'input',
-            message: 'Please enter ID of employee you\'dlike to update:',
+            message: 'Please enter ID of employee you\'d like to update:',
         },
         {
             name: 'roleID',
