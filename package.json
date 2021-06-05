@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Linka-Source/SQL-Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/Linka-Source/SQL-Employee-Tracker#readme"
+  "homepage": "https://github.com/Linka-Source/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0"
+  }
 }
