@@ -207,3 +207,21 @@ const updateEmployee = () => {
             prompts();
         });
     })};
+
+    const deleteEmployee = () => {
+        inquirer
+        .prompt([
+            {
+                name: 'employeeID',
+                type: 'input',
+                message: 'Please enter employee ID you would like to delete:',
+            }
+        ])
+        .then((answer) => {
+            const query = `DELETE FROM employee WHERE id = ${answer.employeeID}`;
+
+            connection.query(query,(err, res) => {
+                console.log("Emplyee was successfully deleted :)");
+                prompts();
+            });
+        })};
