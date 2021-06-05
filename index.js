@@ -65,7 +65,7 @@ const prompts = () => {
             updateEmployee();
             break;
 
-            case 'Delete an employee':
+            case 'Delete employee':
             deleteEmployee();
             break;
 
@@ -115,7 +115,7 @@ const addRole = () => {
         }
     ])
     .then((answer) => {
-        const query = `INSERT INTO position (title, salary, department_id) VALUES ('${answer.roleName}', ${answer.salary}, ${answer.deptID})`;
+        const query = `INSERT INTO role_in_dept (title, salary, department_id) VALUES ('${answer.roleName}', ${answer.salary}, ${answer.deptID})`;
 
         connection.query(query,(err,res) => {
             console.log("New role added successfully :)");
@@ -149,7 +149,7 @@ const addEmployee = () => {
         }
     ])
     .then((answer) => {
-        const query = `INSERT INTO emplyee (first_name, last_name, role_id, manager_id) VALUES ('${answer.firstName}', '${answer.lastName}', ${answer.role_id}, ${answer.manager_id})`;
+        const query = `INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ('${answer.firstName}', '${answer.lastName}', ${answer.role_id}, ${answer.manager_id})`;
 
         connection.query(query,(err,res) => {
             console.log("New employee added successfully :)");
@@ -221,7 +221,7 @@ const updateEmployee = () => {
             const query = `DELETE FROM employee WHERE id = ${answer.employeeID}`;
 
             connection.query(query,(err, res) => {
-                console.log("Emplyee was successfully deleted :)");
+                console.log("Employee was successfully deleted :)");
                 prompts();
             });
         })};
