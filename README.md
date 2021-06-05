@@ -61,13 +61,11 @@ npm test
 
 ## Screenshots
 
-
-
+![Screenshot](https://user-images.githubusercontent.com/76650898/120890767-f88c8800-c643-11eb-82c6-02bd38028803.JPG)
 
 ## Video
 
-
-
+![Presentation video](https://user-images.githubusercontent.com/76650898/120890781-0cd08500-c644-11eb-803c-53e0ceea4cc7.gif)
 
 https://drive.google.com/file/d/198ipojS4-rguRgbsILmttdOreSzxxCfF/view
 
