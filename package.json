@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Linka-Source/SQL-Employee-Tracker#readme",
   "dependencies": {
-    "console.table": "^0.10.0"
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0"
   }
 }
