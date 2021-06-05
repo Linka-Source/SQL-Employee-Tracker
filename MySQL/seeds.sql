@@ -11,3 +11,6 @@ INSERT INTO role_in_dept (title,salary,department_id) VALUES ("Structural Engine
 INSERT INTO role_in_dept (title,salary,department_id) VALUES ("Traffic Engineer",100000,3);
 INSERT INTO role_in_dept (title,salary,department_id) VALUES ("Talent Recruiter",70000,4);
 INSERT INTO role_in_dept (title,salary,department_id) VALUES ("Performance Manager",85000,4);
+
+INSERT INTO employee (first_name,last_name,role_id) VALUES ("Kevin","Bacon",1);
+INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES ("Marky","Mark",5,1)
