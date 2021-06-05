@@ -184,3 +184,26 @@ const viewEmployees = () => {
         prompts();
     });
 };
+
+const updateEmployee = () => {
+    inquirer
+    .prompt([
+        {
+            name: 'employeeID',
+            type: 'input',
+            message: 'Please enter ID of employee you\'dlike to update:',
+        },
+        {
+            name: 'roleID',
+            type: 'input',
+            message: 'Please enter employee\'s new role ID:',
+        }
+    ])
+    .then((answer) => {
+        const query = `UPDATE employee SET role_id = ${answer.roleID} WHERE id = ${answer.employeeID}`;
+
+        connection.query(query,(err, res) => {
+            console.log("Employee successfully updated :)");
+            prompts();
+        });
+    })};
