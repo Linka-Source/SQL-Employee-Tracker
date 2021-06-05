@@ -157,3 +157,30 @@ const addEmployee = () => {
         });
     })
 }
+
+const viewDepts = () => {
+    const query =
+        'SELECT * FROM department';
+    connection.query(query, (err, res) => {
+        console.table(res);
+        prompts();
+    });
+};
+
+const viewRoles = () => {
+    const query =
+        'SELECT * FROM role_in_dept';
+    connection.query(query, (err, res) => {
+        console.table(res);
+        prompts();
+    });
+};
+
+const viewEmployees = () => {
+    const query =
+        'SELECT * FROM employee';
+    connection.query(query, (err, res) => {
+        console.table(res);
+        prompts();
+    });
+};
